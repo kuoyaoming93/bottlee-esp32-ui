@@ -1,0 +1,24 @@
+<screen>
+    <styles>
+        <style name="style_main" bg_color="0x1A2530" bg_opa="255" />
+        <style name="style_label_welcome" text_color="0xBDC3C7" text_font="lv_font_montserrat_24" />
+        <style name="style_label_brand" text_color="0x3498DB" text_font="lv_font_montserrat_48" />
+        <style name="style_decor" bg_color="0x3498DB" radius="2" />
+    </styles>
+
+    <view>
+        <style name="style_main" />
+
+        <lv_label text="Hola" align="center" y="-40">
+            <style name="style_label_welcome" />
+        </lv_label>
+
+        <lv_label text="Bottlee!" align="center" y="10">
+            <style name="style_label_brand" />
+        </lv_label>
+        
+        <lv_obj width="200" height="4" align="center" y="50">
+             <style name="style_decor" />
+        </lv_obj>
+    </view>
+</screen>
